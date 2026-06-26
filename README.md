@@ -1,16 +1,131 @@
-# React + Vite
+Yes — put a clean README like this. You can paste it directly and just replace the links and your name.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+````md
+# MatrixMaster
 
-Currently, two official plugins are available:
+A modern, professional matrix calculator built with **React + Vite** and styled for a clean dark/light user experience.  
+It supports matrix operations with detailed step-by-step solutions, keyboard-friendly matrix input, and a polished UI.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Live Demo
 
-## React Compiler
+[Open the live website](https://matrix-calculator-zeta-three.vercel.app/)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
+- Matrix A and Matrix B input
+- Dynamic matrix sizes from `2×2` to `N×N`
+- Arrow key navigation inside matrix cells
+- Determinant calculation
+- Inverse calculation
+- Adjoint calculation
+- Transpose calculation
+- Rank calculation
+- Trace calculation
+- Matrix addition, subtraction, and multiplication
+- Scalar multiplication
+- Matrix power
+- Row echelon form
+- LU decomposition
+- Cholesky decomposition
+- Matrix equation solving (`AX = B`)
+- Polynomial matrix expressions
+- Clean result display in matrix form
+- Step-by-step mathematical explanations
+- Copy, download, and share options
+- Dark mode and light mode
+- Responsive and modern dashboard UI
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+
+- React
+- Vite
+- JavaScript
+- Tailwind CSS
+
+## Getting Started
+
+### Clone the repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
+````
+
+### Go into the project folder
+
+```bash
+cd matrix-master
+```
+
+### Install dependencies
+
+```bash
+npm install
+```
+
+### Run the development server
+
+```bash
+npm run dev
+```
+
+### Build for production
+
+```bash
+npm run build
+```
+
+### Preview production build
+
+```bash
+npm run preview
+```
+
+## Project Structure
+
+```text
+matrix-master/
+├── public/
+├── src/
+│   ├── components/
+│   ├── context/
+│   ├── data/
+│   ├── pages/
+│   ├── utils/
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+## How to Use
+
+1. Enter values in Matrix A and Matrix B
+2. Choose matrix size from the dropdown
+3. Select the operation from the sidebar or operation panel
+4. Click **Calculate**
+5. View the result and step-by-step solution
+6. Use **Copy**, **Download**, or **Share** if needed
+
+## Future Improvements
+
+* Better mobile sidebar handling
+* More advanced symbolic math support
+* History of previous calculations
+* Saved favorites for operations
+* More decomposition and solver tools
+
+## Author
+
+Built by **Vishwajeet Kumar Pal**
+
+## License
+
+This project is open for personal and educational use.
+
+```
+
+If you want a stronger version, I can also give you a more professional README with badges, a short project description, and a polished “About” section for GitHub.
+```
